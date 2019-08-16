@@ -20,7 +20,7 @@ Laptop, Google Chrome browser and a text editor. If you do not have a text edito
 
 ### Let's get started...
 
-Run the SpecRunner.html file in a browser. This document current shows 4 failing tests.
+Run the SpecRunner.html file in a browser. This document currently shows 4 failing tests.
 
 - The `spec` folder holds all the failing tests that are being displayed in SpecRunner.html.
 - The `src` folder holds the functions that are being called to run the tests.
