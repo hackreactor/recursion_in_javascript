@@ -6,6 +6,8 @@ You're here to solidify your understanding of recursion -- a fundamental program
 
 ## Prerequisites
 
+This workshop is designed for folks in the midst of studying intermediate-level JavaScript who have a few months of foundational experience. You will be expected to understand the basics of the Document Object Model (DOM) as applied to HTML.
+
 ## Textbook
 
 No textbook is required for this workshop. All materials are included in this GitHub repo.
@@ -28,7 +30,7 @@ Recursion is a technique for solving problems wherein a function makes calls to 
 
 Consider the following function:
 
-```
+```js
 var eat = function(meal){
   console.log('meal before bite:', meal);
   console.log('now eating', meal.pop());
@@ -42,7 +44,7 @@ var eat = function(meal){
 
 Which produces this output:
 
-```
+```js
 eat(['soup', 'potatoes', 'fish']);
 // => meal before bite: ["soup", "potatoes", "fish"]
 // => now eating fish
@@ -61,6 +63,8 @@ In this sprint, you'll be practicing writing recursive functions, building up to
 
 ## Exercises
 
+More detailed instructions for each exercise can be found in the individual .js files in the `src` folder.
+
 ### 1: sumArray
 
 - [ ] Implement `sumArray` with your own function in `src/sumArray.js`
@@ -77,14 +81,14 @@ In this sprint, you'll be practicing writing recursive functions, building up to
 
 - [ ] Implement `getElementsByClassName` with your own function in `src/getElementsByClassName.js`
   - [ ] You should use `document.body`, `element.childNodes`, and `element.classList`
-  - NOTE: You may also use methods from the [underscore](https://underscorejs.org) library for assitance, but are not required to do so.
+- NOTE: You may also use methods from the [underscore](https://underscorejs.org) library for assitance, but are not required to do so.
 - You can view the MDN documentation for getElementsByClassName [here](https://developer.mozilla.org/en/docs/Web/API/Document/getElementsByClassName)
 
-#### Failing Test Example
+#### Failing Tests Example
 
 ![failing tests](images/failing-tests.png)
 
-#### Passing Test Example
+#### Passing Tests Example
 
 ![passing tests](images/passing-tests.png)
 
