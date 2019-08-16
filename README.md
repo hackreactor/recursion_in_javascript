@@ -20,9 +20,12 @@ Laptop, Google Chrome browser and a text editor. If you do not have a text edito
 
 ### Let's get started...
 
-Run the SpecRunner.html file in a browser. This document shows 4 failing tests.
+Run the SpecRunner.html file in a browser. This document current shows 4 failing tests.
 
-The `spec` folder holds all the failing tests that are being displayed in SpecRunner.html. The `src` folder holds the functions that are being called to run the tests. Your task is to edit the filed in `src` to complete the functions and get the tests to pass. These files are just javascript files so you can use console.log to help debug and inspect these functions.
+- The `spec` folder holds all the failing tests that are being displayed in SpecRunner.html.
+- The `src` folder holds the functions that are being called to run the tests.
+- Your task is to edit the files in `src` to complete the functions and get the tests to pass.
+- These files are just javascript files so you can use `console.log` to help debug and inspect these functions.
 
 ## Recursion Review
 
@@ -63,23 +66,23 @@ In this sprint, you'll be practicing writing recursive functions, building up to
 
 ## Exercises
 
-More detailed instructions for each exercise can be found in the individual .js files in the `src` folder.
+More detailed instructions and examples for each exercise can be found in the individual `.js` files in the `src` folder.
 
 ### 1: sumArray
 
-- [ ] Implement `sumArray` with your own function in `src/sumArray.js`
+- [ ] Implement `sumArray` with your own code in `src/sumArray.js`
 
 ### 2: power
 
-- [ ] Implement `power` with your own function in `src/power.js`
+- [ ] Implement `power` with your own code in `src/power.js`
 
 ### 3: nthFibonacci
 
-- [ ] Implement `nthFibonacci` with your own function in `src/nthFibonacci.js`
+- [ ] Implement `nthFibonacci` with your own code in `src/nthFibonacci.js`
 
 ### 4: getElementsByClassName
 
-- [ ] Implement `getElementsByClassName` with your own function in `src/getElementsByClassName.js`
+- [ ] Implement `getElementsByClassName` with your own code in `src/getElementsByClassName.js`
   - [ ] You should use `document.body`, `element.childNodes`, and `element.classList`
 - NOTE: You may also use methods from the [underscore](https://underscorejs.org) library for assitance, but are not required to do so.
 - You can view the MDN documentation for getElementsByClassName [here](https://developer.mozilla.org/en/docs/Web/API/Document/getElementsByClassName)
