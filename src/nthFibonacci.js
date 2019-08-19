@@ -16,7 +16,10 @@
 // nthFibonacci(4); // => 3
 // etc...
 
-var nthFibonacci = function(n) {
+var nthFibonacci = function (n) {
   // Your code here
+  if (n < 2) {
+    return n;
+  }
+  return nthFibonacci(n - 1) + nthFibonacci(n - 2);
 };
-

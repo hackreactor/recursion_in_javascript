@@ -18,4 +18,8 @@
 
 var sumArray = function(arr) {
   // Your code here
+  if (arr.length === 1) {
+    return arr[0];
+  }
+  return arr.pop() + sumArray(arr);
 };

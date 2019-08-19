@@ -14,4 +14,8 @@
 
 var power = function(base, exponent) {
   // Your code here
+  if (exponent === 1) {
+    return base;
+  }
+  return base * power(base, exponent - 1);
 };
