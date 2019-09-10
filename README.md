@@ -16,6 +16,10 @@ No textbook is required for this workshop. All materials are included in this Gi
 
 Laptop, Google Chrome browser and a text editor. If you do not have a text editor, we recommend Visual Studio Code, Sublime Text, or Atom.
 
+## Slides
+
+The lesson slides for this workshop can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vR-oZyN4pYr3gbnPcrkUBtDrfnR16d6TnZGxhAI4Q52Fu_hm0_KAmEzf_HjEJNhCaPPln40XAriXTbu/pub?start=false&loop=false&delayms=60000).
+
 # How to use this repository
 
 ### Let's get started...
