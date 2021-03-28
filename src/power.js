@@ -13,5 +13,8 @@
 // power(10, 3) => 1000
 
 var power = function(base, exponent) {
-  // Your code here
+  if (exponent===0)
+  return 1
+   else 
+   return base*power(base,exponent-1)
 };

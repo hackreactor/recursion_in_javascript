@@ -17,6 +17,10 @@
 // etc...
 
 var nthFibonacci = function(n) {
+  if(n<2){
+    return n
+  }
+  else return( nthFibonacci(n-1)+ nthFibonacci(n-2))
   // Your code here
 };
 
