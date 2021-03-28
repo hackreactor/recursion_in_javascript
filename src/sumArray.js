@@ -16,6 +16,13 @@
 // sumArray([1, 2, 3, 4, 5]) => 15
 
 
-var sumArray = function(arr) {
-  // Your code here
-};
+var sumArray = function(arr){
+ var result =0
+    if (arr.length == 0)
+        return 0;
+    else
+      return   result=+ arr.shift() + sumArray(arr.slice());
+    
+}
+
+  
